@@ -5,6 +5,7 @@ public class Product {
     public String title;
     public byte cost;
 
+
     public int getId() {
         return id;
     }

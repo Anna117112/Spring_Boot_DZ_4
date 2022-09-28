@@ -25,6 +25,7 @@ public class ProductsService {
 
     }
 
+
     public void addNewProduct(Product product){
         productRepository.addProduct(product);
     }

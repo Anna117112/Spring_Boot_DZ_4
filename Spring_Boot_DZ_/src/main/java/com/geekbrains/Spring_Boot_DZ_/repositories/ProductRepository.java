@@ -27,6 +27,7 @@ public void addProduct(Product prod){
 // поиск по id
     public Product forIdListProduct(int id){
 
+
         for (Product list : listproduct) {
            if (list.getId() ==id) {
                 System.out.println(String.valueOf(list));

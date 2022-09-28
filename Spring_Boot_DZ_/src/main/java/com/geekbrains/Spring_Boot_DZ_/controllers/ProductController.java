@@ -26,6 +26,7 @@ public class ProductController {
 //    поиск по id
    //http://localhost:8489/product/showProductById?id=2
 
+
     @RequestMapping(path = "/showProductById", method = RequestMethod.GET)
       //@ResponseBody  //используется для вывода обекта а не строки или пердставления в json формате
     @ResponseBody
